@@ -18,7 +18,6 @@ function Example({show , setShow , click , visible}) {
                  </Modal.Header>
                  <Modal.Body>
                      <center><AnchorLink href='#about' style={{textDecoration :"none" , color : "black" , fontWeight :"bold" , fontSize : 20 }} onClick={click} >About</AnchorLink></center>
-
                      <center><AnchorLink href='#hire'  style={{textDecoration :"none" , color : "black" , fontWeight :"bold" , fontSize : 20}} onClick={click}>Contact</AnchorLink></center>
                      <center><AnchorLink href='#projects'  style={{textDecoration :"none" , color : "black" , fontWeight :"bold" , fontSize : 20}} onClick={click}>Projects</AnchorLink></center>
                  </Modal.Body>
